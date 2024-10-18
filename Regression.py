@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import minimize
+from sklearn.linear_model import LinearRegression
 
 nb_samples = 200
 
@@ -40,3 +41,17 @@ def gradient(v):
 
 result=minimize(fun=loss, x0=[0.0, 0.0], jac=gradient, method='Powell')
 print(result)
+
+# sklearn
+
+X.shape
+Y.shape
+
+X= X.reshape(-1,1)
+X.shape
+
+reg = LinearRegression().fit(X, Y)
+reg.score(X, Y)
+
+print(reg.coef_)
+print(reg.intercept_)
