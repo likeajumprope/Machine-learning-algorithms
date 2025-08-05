@@ -1,5 +1,5 @@
-# Machine-learning-algorithms-
-Collection of machine learning algorithms
+# Machine-learning-algorithms
+Collection of machine learning algorithms - implemented from scratch
 
 Regression:
 <a target="_blank" href="https://colab.research.google.com/github/likeajumprope/Machine-learning-algorithms/blob/main/Regression.ipynb">
